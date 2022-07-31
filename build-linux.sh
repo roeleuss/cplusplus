@@ -7,7 +7,7 @@ mkdir bin
 mkdir build
 cd build
 cmake ..
-make
+cmake --build .
 mv fahrenheit ../bin/fahrenheit
 
 cd ..
